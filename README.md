@@ -2,7 +2,10 @@
 
 Developed during my On-the-Job Training (OJT) at the Department of the Interior and Local Government (DILG) – Aklan.
 
----
+<p align="center">
+  <img src="8888p1.png" width="900">
+</p>
+
 
 ## Overview
 
