@@ -3,7 +3,7 @@
 Developed during my On-the-Job Training (OJT) at the Department of the Interior and Local Government (DILG) – Aklan.
 
 <p align="center">
-  <img src="8888p1.png" width="900">
+  <img src="frontpage.png" width="900">
 </p>
 
 
@@ -11,7 +11,9 @@ Developed during my On-the-Job Training (OJT) at the Department of the Interior 
 
 The DILG Aklan 8888 Complaint Management System is a web-based application developed to digitize, organize, and monitor the handling of 8888 citizen complaints. The system streamlines the complaint resolution workflow by enabling DILG staff and Local Government Units (LGUs) to securely manage complaint records, upload supporting documents, track progress, and maintain organized archives with role-based access control.
 
----
+<p align="center">
+  <img src="presentation.png" width="900">
+</p>
 
 ## Objectives
 
