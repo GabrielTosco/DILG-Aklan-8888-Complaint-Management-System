@@ -98,9 +98,18 @@ The DILG Aklan 8888 Complaint Management System is a web-based application devel
 
 ## Project Gallery
 
-*(Screenshots below)*
 
----
+<p align="center">
+  <img src="8888p1.png" width="900">
+</p>
+
+<p align="center">
+  <img src="8888p2.png" width="900">
+</p>
+
+<p align="center">
+  <img src="8888p3.png" width="900">
+</p>
 
 ## Source Code
 
