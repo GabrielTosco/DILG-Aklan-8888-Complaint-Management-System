@@ -42,8 +42,7 @@ Tracked statuses include **Received**, **Pending**, and **Complete**.
 
 ## Screenshots
 
-<details>
-<summary>View application screenshots</summary>
+
 
 ### Complaint management
 
