@@ -1,122 +1,77 @@
 # DILG Aklan 8888 Complaint Management System
 
-Developed during my On-the-Job Training (OJT) at the Department of the Interior and Local Government (DILG) – Aklan.
+**A role-based web application for recording, assigning, tracking, and resolving citizen complaints.**
 
-<p align="center">
-  <img src="frontpage.png" width="900">
-</p>
+Developed as an **On-the-Job Training (OJT) project at the Department of the Interior and Local Government (DILG) – Aklan**.
 
+**Tech stack:** PHP · MySQL · HTML · CSS · JavaScript
 
-## Overview
+![DILG Aklan 8888 Complaint Management System interface](frontpage.png)
 
-The DILG Aklan 8888 Complaint Management System is a web-based application developed to digitize, organize, and monitor the handling of 8888 citizen complaints. The system streamlines the complaint resolution workflow by enabling DILG staff and Local Government Units (LGUs) to securely manage complaint records, upload supporting documents, track progress, and maintain organized archives with role-based access control.
+## Project overview
 
-<p align="center">
-  <img src="presentation.png" width="900">
-</p>
+The application helps organize the handling of 8888 citizen complaints. Instead of relying on scattered records, the workflow provides a central place to record complaints, attach documents, assign them to local government units (LGUs), track responses, and archive resolutions.
 
-## Objectives
+The project focuses on **record management, traceable workflows, and role-based access**.
 
-- Digitize complaint and resolution record management
-- Improve document organization and retrieval
-- Track complaint progress through a structured workflow
-- Increase transparency and accountability with timestamps and status tracking
-- Reduce paperwork and lost records
+## Key features
 
----
+- **Complaint intake and assignment:** Record complaints, attach PDF documents, and assign cases to municipalities.
+- **Resolution workflow:** Responders upload resolution documents; encoders review, complete, or reopen cases for revision.
+- **Role-based access:** Different permissions for encoders, responders, and read-only viewers.
+- **Tracking and organization:** Complaint statuses, timestamps, comments, search, filtering, and document archives.
+- **Monitoring tools:** Dashboard analytics and notifications to support administrative follow-up.
 
-## Technologies Used
+## User roles
 
-- PHP
-- MySQL
-- HTML
-- CSS
-- JavaScript
+| Role | Main responsibilities |
+| --- | --- |
+| **Encoder** | Creates and assigns complaints, reviews resolutions, marks cases complete, or requests revisions |
+| **Responder** | Views assigned complaints and uploads or updates resolution documents |
+| **Viewer** | Reviews complaint information and downloads available documents without editing records |
 
----
+## Example complaint workflow
 
-## User Roles
+1. An encoder records a complaint and uploads its PDF.
+2. The complaint is assigned to the responsible municipality.
+3. A responder reviews the assigned complaint and uploads a resolution PDF.
+4. The encoder evaluates the response.
+5. The complaint is marked **Complete** or reopened for revision.
 
-### Encoder
+Tracked statuses include **Received**, **Pending**, and **Complete**.
 
-- Creates and records new complaints
-- Uploads complaint PDF files
-- Assigns complaints to municipalities
-- Reviews submitted resolutions
-- Marks complaints as Complete or Reopens them for revision
-- Manages complaint records
+## Screenshots
 
-### Responder
+<details>
+<summary>View application screenshots</summary>
 
-- Views complaints assigned to their municipality
-- Uploads resolution PDF files
-- Updates submitted resolutions when permitted
-- Responds to encoder requests for revisions
+### Complaint management
 
-### Viewer
+![Complaint management screen 1](8888p1.png)
 
-- Read-only access
-- Views complaint information
-- Downloads complaint and resolution documents
+### Application workflow
 
----
+![Complaint management screen 2](8888p2.png)
 
-## Workflow
+### Additional interface
 
-1. Encoder records a complaint and uploads the complaint PDF.
-2. Complaint is assigned to the responsible municipality.
-3. Responder receives the complaint.
-4. Responder uploads the resolution PDF.
-5. Encoder reviews the submitted resolution.
-6. Complaint is either marked Complete or reopened for revision.
+![Complaint management screen 3](8888p3.png)
 
----
+</details>
 
-## Complaint Status
+## Documentation and source
 
-- **Received** – Complaint has been recorded and assigned.
-- **Pending** – Resolution submitted or additional action required.
-- **Complete** – Resolution approved by the encoder.
+**User manuals**
+- [Encoder manual](Documentation/DILG8888_Encoder_Manual.docx)
+- [LGU manual](Documentation/DILG8888_LGU_Manual.docx)
+- [MLGOO manual](Documentation/DILG8888_MLGOO_Manual.docx)
+- [Project presentation](Documentation/Presentation-Complaint-Manager_20260407_103606_0000.pptx)
+
+**Application source**
+- [Source code archive (ZIP)](source-code/dilg8888-20260803T050205Z-1-001.zip)
+
+The implementation is currently provided as a ZIP archive in this repository. A browsable source tree and setup guide would make it easier for others to review and reproduce the application.
 
 ---
 
-## Features
-
-- Secure role-based authentication
-- Complaint management
-- Resolution upload system
-- PDF document archiving
-- Municipality assignment
-- Search and filtering
-- Complaint comments
-- Dashboard with analytics
-- Status tracking
-- Timestamp logging
-- Notification system
-
----
-
-## Project Gallery
-
-
-<p align="center">
-  <img src="8888p1.png" width="900">
-</p>
-
-<p align="center">
-  <img src="8888p2.png" width="900">
-</p>
-
-<p align="center">
-  <img src="8888p3.png" width="900">
-</p>
-
-## Source Code
-
-The application source code is located in the **source-code** folder.
-
----
-
-## Documentation
-
-Project documentation is available in the **documentation** folder.
+*Built during OJT at DILG Aklan. Project details and screenshots are provided for portfolio and technical review purposes.*
